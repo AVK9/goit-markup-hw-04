@@ -92,14 +92,14 @@ p {
   letter-spacing: 0.02em;
   padding: 24px 0;
   color: #2e2f42;
-}
-.menu-header-two {
-  position: relative;
-  color: #404bbf;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.menu-header-check {
+  position: relative;
+  color: #404bbf;
+}
 
-.menu-header-two::after {
+.menu-header-check::after {
   content: '';
   position: absolute;
   left: 0;
@@ -109,7 +109,10 @@ p {
   border-radius: 2px;
   width: 100%;
 }
-
+.menu-header:hover,
+.menu-header:focus {
+  color: #404bbf;
+}
 .kontakts {
   font-style: normal;
   display: block;
